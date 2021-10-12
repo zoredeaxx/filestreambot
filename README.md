@@ -1,8 +1,21 @@
+
+![GitHub Repo stars](https://img.shields.io/github/stars/code-x-mania/filestream?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/code-x-mania/filestream?color=green&style=flat)
+![GitHub issues](https://img.shields.io/github/issues/code-x-mania/filestream)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/code-x-mania/filestream)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/code-x-mania/filestream)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/code-x-mania/filestream)
+![GitHub contributors](https://img.shields.io/github/contributors/code-x-mania/filestream?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/code-x-mania/filestream?color=red)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/code-x-mania/filestream)
+![GitHub](https://img.shields.io/github/license/code-x-mania/filestream)
+[![Bot Support](https://img.shields.io/badge/File%20Stream%20Bot-support%20group-blue)](https://t.me/codexmania)
 <h1 align="center">FileStreamBot</h1>
 <p align="center">
   <a href="https://github.com/code-x-mania/FileStreamBot">
     <img src="https://socialify.git.ci/Code-X-Mania/filestreambot/image?description=1&descriptionEditable=Powerful%20and%20fast%20bot%20made%20for%20streaming%20movies&font=Source%20Code%20Pro&forks=1&issues=1&language=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
   </a>
+
   
   <p align="center">
     A Telegram bot to all media and documents files to web link .
@@ -13,7 +26,7 @@
     |
     <a href="https://github.com/code-x-mania/FileStreamBot/issues">Request Feature</a>
   </p>
-</p>
+
 
 <hr>
 
