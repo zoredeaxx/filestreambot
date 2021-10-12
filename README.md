@@ -23,7 +23,7 @@
 
 <p align="center">
     <a href="https://github.com/code-x-mania/FileStreamBot">
-        <img src="https://i.ibb.co/ZJzJ9Hq/link-3x.png" height="100" width="100" alt="FileStreamBot Logo">
+        <img src="https://i.ibb.co/DwQD0rK/download-1.jpg" height="100" width="100" alt="FileStreamBot Logo">
     </a>
 </p>
 <p align='center'>
@@ -137,7 +137,19 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ### 😈 Thanks to : 
 
-- [Avishkarpatil](https://telegram.me/Avishkarpatil)
-- [EverythingSuckz](https://github.com/EverythingSuckz)
+- [Me] (https://t.me/codexmania
+- [EverythingSuckz](https://github.com/EverythingSuckz) 
 - Everyone In This Journey !
+
+### Contributions
+ - [EverythingSuckz](https://github.com/EverythingSuckz)   He owns the source code ;-;                                   80% code
+ - [Me] (https://t.me/codexmania for making some changes according to my taste + I added new features : )                15% code
+ - All who had helped me with logics  and plus who have helped [EverythingSuckz](https://github.com/EverythingSuckz)     5%  code
+ - I dont own the source code . As told earlier I just made some changes I dont own it's base code :D
+ - Feel free to contribute  ^ ^
+                             |
+                            \_/
+ 
+ 
+ 
 
