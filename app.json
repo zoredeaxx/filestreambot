@@ -14,8 +14,8 @@
     ],
   "repository": "https://github.com/code-x-mania/FileStreamBot/",
   "success_url": "/",
-  "logo": "https://i.ibb.co/ZJzJ9Hq/link-3x.png",
-  "website": "adarsh.tk",
+  "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
+  "website": "http://adarsh.tk",
   "env": {
       "ENV": {
           "description": "Set this to True if you don't want to crash the bot",
