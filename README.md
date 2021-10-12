@@ -1,7 +1,7 @@
 <h1 align="center">FileStreamBot</h1>
 <p align="center">
   <a href="https://github.com/code-x-mania/FileStreamBot">
-    <img src="https://socialify.git.ci/Code-X0Mania/FileStreamBot/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https://i.ibb.co/vz5jqv9/live-streaming.png&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
+    <img src="https://socialify.git.ci/code-x-mania/FileStreamBot/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fwww.flaticon.com%2Fpremium-icon%2Ficons%2Fsvg%2F2321%2F2321089.svg&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
   </a>
   
   <p align="center">
