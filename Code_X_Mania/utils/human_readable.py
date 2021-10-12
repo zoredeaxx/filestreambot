@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) Code-X-Mania
 
 
 def humanbytes(size):
