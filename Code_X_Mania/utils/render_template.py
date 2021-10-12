@@ -1,3 +1,4 @@
+# (c) Code-x-Mania
 from Code_X_Mania.vars import Var
 from Code_X_Mania.bot import StreamBot
 from Code_X_Mania.utils.custom_dl import TGCustomYield
