@@ -52,7 +52,7 @@
           "required": false
           
       },
-      "OWNER_NAME": {
+      "OWNER_USERNAME": {
           "description": "Enter your username without @  example  codexmania."
       },
       "SLEEP_THRESHOLD": {
