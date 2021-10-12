@@ -146,9 +146,10 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
  - [Me] (https://t.me/codexmania for making some changes according to my taste + I added new features : )                15% code
  - All who had helped me with logics  and plus who have helped [EverythingSuckz](https://github.com/EverythingSuckz)     5%  code
  - I dont own the source code . As told earlier I just made some changes I dont own it's base code :D
- - Feel free to contribute  ^ ^
- -  _                        |
- -  _                       \_/
+ - Feel free to contribute  
+ - ^ ^
+ -  |
+ - \_/
  
  
  
