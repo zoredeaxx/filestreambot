@@ -1,5 +1,4 @@
-
-# Maintained By : Adarsh @codexmania
+# (c) Code-x-Mania
 
 import time
 StartTime = time.time()
