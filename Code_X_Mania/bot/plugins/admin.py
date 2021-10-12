@@ -6,10 +6,10 @@ import random
 import asyncio
 import aiofiles
 import datetime
-from WebStreamer.utils.broadcast_helper import send_msg
-from WebStreamer.utils.database import Database
-from WebStreamer.bot import StreamBot
-from WebStreamer.vars import Var
+from Code_X_Mania.utils.broadcast_helper import send_msg
+from Code_X_Mania.utils.database import Database
+from Code_X_Mania.bot import StreamBot
+from Code_X_Mania.vars import Var
 from pyrogram import filters, Client
 from pyrogram.types import Message
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
