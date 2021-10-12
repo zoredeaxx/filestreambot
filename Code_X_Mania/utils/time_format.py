@@ -1,3 +1,4 @@
+# (c) Code-x-Mania
 # Bot Uptime
 
 def get_readable_time(seconds: int) -> str:
