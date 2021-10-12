@@ -1,4 +1,4 @@
-# (c) @codexmania
+# (c) @code-x-mania
 import os
 import time
 import string
