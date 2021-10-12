@@ -1,9 +1,9 @@
 
 
-from WebStreamer.bot import StreamBot
-from WebStreamer.vars import Var
-from WebStreamer.utils.human_readable import humanbytes
-from WebStreamer.utils.database import Database
+from Code_X_Mania.bot import StreamBot
+from Code_X_Mania.vars import Var
+from Code_X_Mania.utils.human_readable import humanbytes
+from Code_X_Mania.utils.database import Database
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
