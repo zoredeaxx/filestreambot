@@ -1,1 +1,1 @@
-web: python -m Code_x_mania
+web: python -m Code_X_Mania
