@@ -1,7 +1,7 @@
 <h1 align="center">FileStreamBot</h1>
 <p align="center">
   <a href="https://github.com/code-x-mania/FileStreamBot">
-    <img src="https://socialify.git.ci/code-x-mania/FileStreamBot/image?description=1&descriptionEditable=Telegram%20File%20to%20Link%20Fastest%20Bot%20%2C%20also%20used%20for%20Movies%20streaming%20Generate%20Direct%20Links&font=KoHo&forks=1&logo=https%3A%2F%2Fi.ibb.co%2FZJzJ9Hq%2Flink-3x.png&pattern=Brick%20Wall&stargazers=1&theme=Dark" alt="Cover Image" width="550">
+    <img src="https://socialify.git.ci/Code-X0Mania/FileStreamBot/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https://i.ibb.co/vz5jqv9/live-streaming.png&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Cover Image" width="650">
   </a>
   
   <p align="center">
@@ -143,7 +143,7 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ### Contributions
  - [EverythingSuckz](https://github.com/EverythingSuckz)   He owns the source code ;-;                                   80% code
- - [Me] (https://t.me/codexmania for making some changes according to my taste + I added new features😎                 15% code
+ - [Me] (https://t.me/codexmania) for making some changes according to my taste + I added new features😎                15% code
  - All who had helped me with logics  and plus who have helped [EverythingSuckz](https://github.com/EverythingSuckz)     5%  code
  - I dont own the source code . As told earlier I just made some changes I dont own it's base code 😇
  - Feel free to contribute  
