@@ -1,4 +1,4 @@
-# Bot Sleeping
+# (c) Code-X-Mania
 
 import logging
 import requests
