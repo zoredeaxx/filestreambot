@@ -1,5 +1,4 @@
-
-# (c) @Avishkarpatil 
+# (c) Code-X-Mania
 
 import asyncio
 from Code_X_Mania.bot import StreamBot
