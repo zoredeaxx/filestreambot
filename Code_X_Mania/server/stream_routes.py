@@ -1,3 +1,4 @@
+# (c) Code-X-Mania
 import time
 import math
 import logging
@@ -22,7 +23,7 @@ async def root_route_handler(request):
 
 
 
-@routes.get("/stream/{message_id}")
+@routes.get("/watch/{message_id}")
 async def stream_handler(request):
     try:
         message_id = int(request.match_info['message_id'])
