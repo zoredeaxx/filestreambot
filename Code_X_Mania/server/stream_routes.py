@@ -8,7 +8,7 @@ from aiohttp import web
 from ..bot import StreamBot
 from Code_X_Mania import StartTime
 from ..utils.custom_dl import TGCustomYield, chunk_size, offset_fix
-from WebStreamer.utils.render_template import render_page
+from Code_X_Mania.utils.render_template import render_page
 from ..utils.time_format import get_readable_time
 routes = web.RouteTableDef()
 
