@@ -2,10 +2,10 @@
 # (c) @Avishkarpatil 
 
 import asyncio
-from WebStreamer.bot import StreamBot
-from WebStreamer.utils.database import Database
-from WebStreamer.utils.human_readable import humanbytes
-from WebStreamer.vars import Var
+from Code_X_Mania.bot import StreamBot
+from Code_X_Mania.utils.database import Database
+from Code_X_Mania.utils.human_readable import humanbytes
+from Code_X_Mania.vars import Var
 from pyrogram import filters, Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
