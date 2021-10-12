@@ -12,6 +12,7 @@ from ..utils.custom_dl import TGCustomYield, chunk_size, offset_fix
 from Code_X_Mania.utils.render_template import render_page
 from ..utils.time_format import get_readable_time
 routes = web.RouteTableDef()
+from urllib.parse import quote_plus
 
 
 @routes.get("/", allow_head=True)
@@ -23,7 +24,7 @@ async def root_route_handler(request):
 
 
 
-@routes.get("/watch/{message_id}")
+@routes.get("/watch/{message_id} + '/' +quote_plus(file_name)")
 async def stream_handler(request):
     try:
         message_id = int(request.match_info['message_id'])
@@ -32,7 +33,7 @@ async def stream_handler(request):
         logging.error(e)
         raise web.HTTPNotFound
         
-@routes.get("/download/{message_id}")
+@routes.get("/download/{message_id}+'/' +quote_plus(file_name)")
 @routes.get("/{message_id}")
 async def old_stream_handler(request):
     try:
