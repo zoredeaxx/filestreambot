@@ -6,7 +6,7 @@ import mimetypes
 from ..vars import Var
 from aiohttp import web
 from ..bot import StreamBot
-from Code-x-mania import StartTime
+from Code_X_Mania import StartTime
 from ..utils.custom_dl import TGCustomYield, chunk_size, offset_fix
 from WebStreamer.utils.render_template import render_page
 from ..utils.time_format import get_readable_time
