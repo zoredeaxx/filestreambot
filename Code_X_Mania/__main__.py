@@ -1,3 +1,4 @@
+# (c) Code-x-Mania
 import os
 import sys
 import glob
