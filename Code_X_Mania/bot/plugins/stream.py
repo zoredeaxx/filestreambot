@@ -63,11 +63,11 @@ async def private_receive_handler(c: Client, m: Message):
             return
     try:
         log_msg = await m.forward(chat_id=Var.BIN_CHANNEL)
-        stream_link = Var.URL + 'stream/' + str(log_msg.message_id)
-        shortlink = get_shortlink(stream_link)
+        stream_link = Var.URL + 'stream/' + str(log_msg.message_id)+ '/' +quote_plus(file_name) if file_name else ''
+        shortlink = get_shortlink(stream_link) 
         if shortlink:
             stream_link = shortlink
-        online_link = Var.URL + 'download/'+ str(log_msg.message_id)
+        online_link = Var.URL + 'download/'+ str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
         shortlinka = get_shortlink(online_link)
         if shortlinka:
             online_link = shortlinka
