@@ -57,12 +57,19 @@ async def start_services():
     await web.TCPSite(app, bind_address, Var.PORT).start()
     print('----------------------------- DONE -----------------------------')
     print('\n')
+    print('---------------------------------------------------------------------')
+    print('---------------------------------------------------------------------------------------------------------')
+    print('Give a star to my repo https://github.com/Code-X-Mania/filestreambot  also follow me for new bots')
+    print('---------------------------------------------------------------------------------------------------------')
+    print('\n')
     print('----------------------- Service Started -----------------------')
     print('                        bot =>> {}'.format((await StreamBot.get_me()).first_name))
     print('                        server ip =>> {}:{}'.format(bind_address, Var.PORT))
     if Var.ON_HEROKU:
         print('                        app runnng on =>> {}'.format(Var.FQDN))
     print('---------------------------------------------------------------')
+    print('Give a star to my repo https://github.com/Code-X-Mania/filestreambot  also follow me for new bots')
+    print('---------------------------------------------------------------------------------------------------------')
     await idle()
 
 if __name__ == '__main__':
