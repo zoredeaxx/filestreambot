@@ -20,7 +20,7 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 logging.getLogger("apscheduler").setLevel(logging.WARNING)
 
-ppath = "Code-x-maniar/bot/plugins/*.py"
+ppath = "Code_X_Mania/bot/plugins/*.py"
 files = glob.glob(ppath)
 
 loop = asyncio.get_event_loop()
@@ -37,12 +37,12 @@ async def start_services():
         with open(name) as a:
             patt = Path(a.name)
             plugin_name = patt.stem.replace(".py", "")
-            plugins_dir = Path(f"Code-x-mania/bot/plugins/{plugin_name}.py")
+            plugins_dir = Path(f"Code_X_Mania/bot/plugins/{plugin_name}.py")
             import_path = ".plugins.{}".format(plugin_name)
             spec = importlib.util.spec_from_file_location(import_path, plugins_dir)
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
-            sys.modules["Code-x-mania.bot.plugins." + plugin_name] = load
+            sys.modules["Code_X_Mania.bot.plugins." + plugin_name] = load
             print("Imported => " + plugin_name)
     if Var.ON_HEROKU:
         print('------------------ Starting Keep Alive Service ------------------')
