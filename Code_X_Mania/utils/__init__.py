@@ -1,2 +1,1 @@
-# This file is a part of FileStreamBot
-# Coding : @codexmania
+# (c) Code-X-Mania
