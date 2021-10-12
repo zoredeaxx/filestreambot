@@ -135,13 +135,13 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 ### Channel Support
 Bot also Supported with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button. </details>
 
-### 😈 Thanks to : 
+###🔷 Thanks to : 
 
-- [Me] (https://t.me/codexmania
+- [Me] (https://t.me/codexmania)
 - [EverythingSuckz](https://github.com/EverythingSuckz) 
 - Everyone In This Journey !
 
-### Contributions
+### Contributions By percentage
  - [EverythingSuckz](https://github.com/EverythingSuckz)   He owns the source code ;-;                                   80% code
  - [Me] (https://t.me/codexmania) for making some changes according to my taste + I added new features😎                15% code
  - All who had helped me with logics  and plus who have helped [EverythingSuckz](https://github.com/EverythingSuckz)     5%  code
