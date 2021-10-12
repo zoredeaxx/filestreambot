@@ -1,5 +1,5 @@
 # (c) Code-X-Mania
-from urllib.parse import quote_plus
+
 import asyncio
 from Code_X_Mania.bot import StreamBot
 from Code_X_Mania.utils.database import Database
@@ -63,11 +63,11 @@ async def private_receive_handler(c: Client, m: Message):
             return
     try:
         log_msg = await m.forward(chat_id=Var.BIN_CHANNEL)
-        stream_link = Var.URL + 'stream/' + str(log_msg.message_id)+ '/' +quote_plus(file_name) if file_name else ''
+        stream_link = Var.URL + 'stream/' + str(log_msg.message_id)
         shortlink = get_shortlink(stream_link) 
         if shortlink:
             stream_link = shortlink
-        online_link = Var.URL + 'download/'+ str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
+        online_link = Var.URL + 'download/'+ str(log_msg.message_id) 
         shortlinka = get_shortlink(online_link)
         if shortlinka:
             online_link = shortlinka
@@ -125,8 +125,8 @@ async def channel_receive_handler(bot, broadcast):
         return
     try:
         log_msg = await broadcast.forward(chat_id=Var.BIN_CHANNEL)
-        stream_link = Var.URL + 'watch/' + str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
-        online_link = Var.URL + 'download/' + str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
+        stream_link = Var.URL + 'watch/' + str(log_msg.message_id) 
+        online_link = Var.URL + 'download/' + str(log_msg.message_id) 
         await log_msg.reply_text(
             text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** {stream_link}",
             quote=True,
