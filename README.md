@@ -1,14 +1,10 @@
 
-![GitHub Repo stars](https://img.shields.io/github/stars/code-x-mania/filestream?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/code-x-mania/filestream?color=green&style=flat)
-![GitHub issues](https://img.shields.io/github/issues/code-x-mania/filestream)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/code-x-mania/filestream)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/code-x-mania/filestream)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/code-x-mania/filestream)
-![GitHub contributors](https://img.shields.io/github/contributors/code-x-mania/filestream?style=flat)
-![GitHub repo size](https://img.shields.io/github/repo-size/code-x-mania/filestream?color=red)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/code-x-mania/filestream)
-![GitHub](https://img.shields.io/github/license/code-x-mania/filestream)
+![GitHub Repo stars](https://img.shields.io/github/stars/code-x-mania/filestreambot?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/code-x-mania/filestreambot?color=green&style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/code-x-mania/filestreambot?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/code-x-mania/filestreambot?color=yellow)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/code-x-mania/filestreambot)
+![GitHub](https://img.shields.io/github/license/code-x-mania/filestreambot)
 [![Bot Support](https://img.shields.io/badge/File%20Stream%20Bot-support%20group-blue)](https://t.me/codexmania)
 <h1 align="center">FileStreamBot</h1>
 <p align="center">
