@@ -1,5 +1,4 @@
-# This file is a part of FileStreamBot
-# Coding : adarsh @codexmania
+# (c) Code-X-Mania
 from pyrogram import Client
 from ..vars import Var
 
