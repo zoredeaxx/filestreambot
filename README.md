@@ -70,7 +70,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 <details>
   <summary><b>Available commands and features:</b></summary>
   
-
+<p>
 🐬USER COMMANDS<p>
 /start<br>
 /help<p>
