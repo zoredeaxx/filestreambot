@@ -30,10 +30,8 @@
 
 ## 🍁 About This Bot :
 
-<p align="center">
-    <a href="https://github.com/code-x-mania/FileStreamBot">
-        <img src="https://i.ibb.co/DwQD0rK/download-1.jpg" height="100" width="100" alt="FileStreamBot Logo">
-    </a>
+![streaming-Professional-live_1](https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png)
+
 </p>
 <p align='center'>
     This bot will give you stream links for Telegram files without the need of waiting till the download completes
