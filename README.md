@@ -57,9 +57,9 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 
 1. Fork This Repo
-2. Click on Deploy Easily
+2. Click on the button to Deploy and follow steps
 
-<h4> So Follow Above Steps 👆 and then also deply other wise not work</h4>
+<h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
 
 Press the below button to Fast deploy on Heroku
 
@@ -147,16 +147,16 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 ### Channel Support
 Bot also Supported with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button. </details>
 
-### 🔷 Thanks to : 
+### 🔷 Credits : 
 
-- [Adarsh Goel](https://t.me/codexmania)
+- [Adarsh Goel(me)](https://t.me/codexmania)
 - [EverythingSuckz](https://github.com/EverythingSuckz) 
 - Everyone In This Journey !
 
 ### Contributions By percentage
- - [EverythingSuckz](https://github.com/EverythingSuckz)   He owns the source code ;-;                                   80% code
- - [Adarsh Goel](https://t.me/codexmania) for making some changes according to my taste + I added new features😎                15% code
- - All who had helped me with logics  and plus who have helped [EverythingSuckz](https://github.com/EverythingSuckz)     5%  code
+ - [EverythingSuckz](https://github.com/EverythingSuckz)   He owns the source code ;-;______________________________________________60% code
+ - [Adarsh Goel(me)](https://t.me/codexmania) for making some changes according to my taste + I added new features😎________________35% code
+ - All who had helped me with logics  and plus who have helped [EverythingSuckz](https://github.com/EverythingSuckz)_________________5%  code
  - I dont own the source code . As told earlier I just made some changes I dont own it's base code 😇
  - Feel free to contribute  
  - 😀
