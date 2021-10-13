@@ -73,12 +73,12 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 
 
 ```py
-git clone https://github.com/avipatilpro/FileStreamBot
+git clone https://github.com/code-x-mania/FileStreamBot
 cd FileStreamBot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
-python3 -m WebStreamer
+python3 -m Code_X_Mania
 ```
 
 and to stop the whole bot,
@@ -115,7 +115,7 @@ DATABASE_URL=mongodb_uri
 
 `OWNER_ID` : Your Telegram User ID
 
-`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in [Me Telegram](https://t.me/Avishkarpatil).
+`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in [Me Telegram](https://t.me/adarshhh0).
 
  Option Vars
 
