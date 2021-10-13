@@ -13,7 +13,7 @@
 
   
   <p align="center">
-    A Telegram bot to all media and documents files to web link .
+    A Telegram bot to turn all media and documents files to web link .
     <br />
    </strong></a>
     <br />
