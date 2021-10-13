@@ -22,8 +22,8 @@ async def root_route_handler(request):
                               "uptime": get_readable_time(time.time() - StartTime),
                               "Bot was last updated": get_readable_time(time.time()),
                               "ago":"",
-                              "telegram_bot": '@'+(await StreamBot.get_me()).username}),
-                              "Bot Version":"3.0.1"
+                              "telegram_bot": '@'+(await StreamBot.get_me()).username,
+                              "Bot Version":"3.0.1"})
 
 
 
