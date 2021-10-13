@@ -73,7 +73,7 @@ async def start(b, m):
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Owner', url=f"https://t.me/{Var.OWNER_USERNAME}"),
-                                                                                       InlineKeyboardButton('Follow ', url='https://github.com/CodexMania') ] ]  ) )
+                                                                                       InlineKeyboardButton('Follow ', url='https://github.com/Code-x-Mania') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
@@ -84,7 +84,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="**Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Qᴜɪᴄᴋʟʏ ᴄᴏɴᴛᴀᴄᴛ** @adarsh-status_bot",
+                        text="**Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Qᴜɪᴄᴋʟʏ ᴄᴏɴᴛᴀᴄᴛ** @adarsh_status_bot",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -216,8 +216,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🏵 DEV", url="https://GitHub.com/adarshgoel05")],
-                [InlineKeyboardButton("🍺 FOLLOW", url="https://GitHub.com/adarshgoel05")]
+                [InlineKeyboardButton("🏵 DEV", url="https://GitHub.com/code-x-mania")],
+                [InlineKeyboardButton("🍺 FOLLOW", url="https://GitHub.com/code-x-mania")]
             ]
         )
     )
