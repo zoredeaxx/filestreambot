@@ -10,7 +10,8 @@
       "python",
       "plugin",
       "modular",
-      "media"
+      "media",
+      "bot"
     ],
   "repository": "https://github.com/code-x-mania/FileStreamBot/",
   "success_url": "/",
@@ -48,7 +49,8 @@
           "required": false
       },
       "UPDATES_CHANNEL": {
-          "description": "Put a Public Channel Username  without @, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.",
+          "description": "Put a Public Channel Username  without @, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.IF DONT WANT KEEP VALUE AS None",
+          "value":"None"
           "required": false
           
       },
