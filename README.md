@@ -72,8 +72,8 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
   
 <p>
 🐬USER COMMANDS<p>
-/start- To start using me<br>
-/help -  To know how to use me<p>
+/start - To start using me<br>
+/help  -  To know how to use me<p>
 
 🐬ADMIN COMMANDS<p>
 /status  - to know how many users are using the bot<br>
