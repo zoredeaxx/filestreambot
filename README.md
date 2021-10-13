@@ -72,12 +72,12 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
   
 <p>
 🐬USER COMMANDS<p>
-/start<br>
-/help<p>
+/start- To start using me<br>
+/help -  To know how to use me<p>
 
 🐬ADMIN COMMANDS<p>
-/status<br>
-/broadcast<p>
+/status  - to know how many users are using the bot<br>
+/broadcast - To send message to all the users using the bot<p>
 
 🚀Features<p>
 💥Superfast⚡️ download and stream links.<br>
