@@ -20,7 +20,7 @@ async def root_route_handler(request):
     return web.json_response({"status": "running",
                               "maintained_by": "Adarsh Goel @Codexmania",
                               "uptime": get_readable_time(time.time() - StartTime),
-                              "Bot was updated": get_readable_time(time.time())"Ago",
+                              "Bot was updated": get_readable_time(time.time()),"Ago",
                               "telegram_bot": '@'+(await StreamBot.get_me()).username}),
                               "Bot Version":"3.0.1
 
