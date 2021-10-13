@@ -67,7 +67,25 @@ Press the below button to Fast deploy on Heroku
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
 
+<details>
+  <summary><b>Available commands and features:</b></summary>
+  
 
+🐬USER COMMANDS<p>
+/start<br>
+/help<p>
+
+🐬ADMIN COMMANDS<p>
+/status<br>
+/broadcast<p>
+
+🚀Features<p>
+💥Superfast⚡️ download and stream links.<br>
+💥No ads in generated links.<br>
+💥Superfast interface.<br>
+💥Along with the links you also get file information like name,size ,etc.<br>
+💥Updates channel Support.<br>
+💥Mongodb database support for broadcasting.</details>
 <details>
   <summary><b>Host it on VPS Locally :</b></summary>
 
