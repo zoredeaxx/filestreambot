@@ -13,15 +13,14 @@ from Code_X_Mania.utils.render_template import render_page
 from ..utils.time_format import get_readable_time
 routes = web.RouteTableDef()
 from urllib.parse import quote_plus
-
+kg18="ago"
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
     return web.json_response({"status": "running",
                               "maintained_by": "Adarsh Goel @Codexmania",
                               "uptime": get_readable_time(time.time() - StartTime),
-                              "Bot was last updated": get_readable_time(time.time()),
-                              "ago":"",
+                              "Bot was last updated": get_readable_time(time.time()),kg18,
                               "telegram_bot": '@'+(await StreamBot.get_me()).username,
                               "Bot Version":"3.0.1"})
 
