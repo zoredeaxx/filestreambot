@@ -207,7 +207,7 @@ async def help_handler(bot, message):
             return
    
     await message.reply_text(
-       text="https://telegra.ph/Adarsh-10-22-2",
+       text="https://telegra.ph/Adarsh-10-22-3",
             parse_mode="HTML",
             
           reply_markup=InlineKeyboardMarkup(
