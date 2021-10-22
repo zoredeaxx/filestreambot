@@ -209,7 +209,7 @@ async def help_handler(bot, message):
     await message.reply_text(
        text="https://telegra.ph/Adarsh-10-22-2",
             parse_mode="HTML",
-            disable_web_page_preview=True,
+            
           reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("🏵 DEV", url="https://t.me/CODEXMANIA")],
