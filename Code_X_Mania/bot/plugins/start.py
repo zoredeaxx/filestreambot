@@ -205,7 +205,8 @@ async def help_handler(bot, message):
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
-    await message.reply_text(
+   await bot.send_photo(photo ="https://github.com/Code-X-Mania/yt-anydl/blob/master/assets/1.jpeg"  )
+   await message.reply_text(
         text="""
 <i>Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>\n
 <i>I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴇxᴛᴇʀɴᴀʟ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ !.</i>\n
@@ -216,7 +217,7 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🏵 DEV", url="https://GitHub.com/CODEXMANIA")],
+                [InlineKeyboardButton("🏵 DEV", url="https://t.me/CODEXMANIA")],
                 [InlineKeyboardButton("🍺 FOLLOW", url="https://GITHUB.COM/CODE-X-MANIA")]
             ]
         )
