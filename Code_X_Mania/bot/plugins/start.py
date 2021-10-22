@@ -205,15 +205,7 @@ async def help_handler(bot, message):
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
-    await message.reply_text(
-        text="""
-<i>Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>\n
-<i>I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴇxᴛᴇʀɴᴀʟ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ AND STREAM ʟɪɴᴋ !.</i>\n
-<u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u>\n
-<b> SPAM ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ .</b>\n
-<i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/CodeXmania'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>""",
-        parse_mode="HTML",
-        disable_web_page_preview=True,
+    await bot.send_photo( photo = "https://raw.githubusercontent.com/Code-X-Mania/yt-anydl/master/assets/1.jpeg")
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("🏵 DEV", url="https://GitHub.com/code-x-mania")],
