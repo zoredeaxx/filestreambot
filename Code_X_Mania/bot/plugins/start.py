@@ -205,14 +205,9 @@ async def help_handler(bot, message):
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
-    await bot.send_photo( "https://i.imgur.com/BQBTP7d.png"),
+   
     await message.reply_text(
-       text="""
-<i>Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>\n
-<i>I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴇxᴛᴇʀɴᴀʟ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ !.</i>\n
-<u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u>\n
-<b>Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n
-<i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/codexmania'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>""",
+       text="https://telegra.ph/Adarsh-10-22-2",
             parse_mode="HTML",
             disable_web_page_preview=True,
           reply_markup=InlineKeyboardMarkup(
