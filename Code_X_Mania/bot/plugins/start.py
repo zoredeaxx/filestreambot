@@ -205,7 +205,7 @@ async def help_handler(bot, message):
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
-    await message.send_photo("me", "https://i.imgur.com/BQBTP7d.png")
+    await bot.send_photo("me", "https://i.imgur.com/BQBTP7d.png"),
     await message.reply_text(
        text="""
 <i>Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>\n
