@@ -72,7 +72,7 @@ Press the below button to  deploy on Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
   
-  Press the below button to  deploy on Railway
+  Press the below button to  deploy on Railway 
   
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/code-x-mania/filestreambot)
 
