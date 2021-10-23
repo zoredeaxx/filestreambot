@@ -46,6 +46,11 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 <br>
 
+####RAILWAY
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template="github.com/code-x-mania/filestreambot"
+
+<p>
+
 
 ![image](https://user-images.githubusercontent.com/88939380/137126452-80e760d4-4820-440b-9962-72e7e81adfb4.png)
 
