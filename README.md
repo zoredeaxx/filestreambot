@@ -59,7 +59,7 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 <br>
 <details>
-  <summary><b>Deploy on Heroku :</b></summary>
+  <summary><b>Deploy on Heroku or Railway:</b></summary>
 
 
 1. Fork This Repo
@@ -67,11 +67,15 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 <h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
 
-Press the below button to Fast deploy on Heroku
+Press the below button to  deploy on Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+  
+  Press the below button to  deploy on Railway
+  
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/code-x-mania/filestreambot)
 
-then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
+then goto the variables tab for more info on setting up environmental variables. 
 
 <details>
   <summary><b>Available commands and features:</b></summary>
@@ -110,19 +114,23 @@ and to stop the whole bot,
 
 Setting up things
 
-If you're on Heroku, just add these in the Environmental Variables
+If you're on Heroku / Railway, just add these in the Environmental Variables
 or if you're Locally hosting, create a file named `.env` in the root directory and add all the variables there.
 An example of `.env` file:
 
 ```py
-API_ID=12345
-API_HASH=esx576f8738x883f3sfzx83
-BOT_TOKEN=55838383:yourtbottokenhere
-BIN_CHANNEL=-100
+DATABASE_URL=  Get this from mongodb.com
 PORT=8080
-FQDN=your_server_ip
-OWNER_ID=your_user_id
-DATABASE_URL=mongodb_uri
+API_ID= Get from my.telegram.org
+NO_PORT=False
+BOT_TOKEN= Get from botfather
+OWNER_ID= your owner id 
+API_HASH= Get from my.telegram.org
+UPDATES_CHANNEL= Enter Force sub channel username without @ if any  else set value to None
+BIN_CHANNEL=-100
+SESSION_NAME=Codexmania
+HAS_SSL=True
+FQDN= Enter Custom domain if any or server ip
 ```
   </details>
 
