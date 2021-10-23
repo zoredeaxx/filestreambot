@@ -64,6 +64,7 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 1. Fork This Repo <br>
 2. Click on the button to Deploy and follow steps <br>
+  
 3.then goto the variables tab for more info on setting up environmental variables. <br>
 
 <h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
