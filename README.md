@@ -75,7 +75,7 @@ Press the below button to  deploy on Heroku
   
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/code-x-mania/filestreambot)
 
-then goto the variables tab for more info on setting up environmental variables. 
+  then goto the variables tab for more info on setting up environmental variables. </details>
 
 <details>
   <summary><b>Available commands and features:</b></summary>
