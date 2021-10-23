@@ -62,9 +62,9 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
   <summary><b>Deploy on Heroku or Railway:</b></summary>
 
 
-1. Fork This Repo
-2. Click on the button to Deploy and follow steps
-3.then goto the variables tab for more info on setting up environmental variables.
+1. Fork This Repo <br>
+2. Click on the button to Deploy and follow steps <br>
+3.then goto the variables tab for more info on setting up environmental variables. <br>
 
 <h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
 
@@ -76,7 +76,7 @@ Press the below button to  deploy on Heroku
   
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/code-x-mania/filestreambot)
 
-  then goto the variables tab for more info on setting up environmental variables. </details>
+ </details>
 
 <details>
   <summary><b>Available commands and features:</b></summary>
