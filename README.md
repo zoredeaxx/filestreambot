@@ -16,12 +16,13 @@
   </a>
 
   
-  <p align="center">
+### <p align="center">
     A Telegram bot to turn all media and documents files to web link .
-    <br />
+    
    </strong></a>
-    <br />
-    <a href="https://github.com/code-x-mania/FileStreamBot/issues">Report a Bug</a>
+    
+   
+   <a href="https://github.com/code-x-mania/FileStreamBot/issues">Report a Bug</a>
     |
     <a href="https://github.com/code-x-mania/FileStreamBot/issues">Request Feature</a>
   </p>
@@ -36,15 +37,15 @@
 ![streaming-Professional-live_1](https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png)
 
 </p>
-<p align='center'>
-    This bot will give you stream links for Telegram files without the need of waiting till the download completes
-</p>
+
+ ### `   This bot will give you stream links for Telegram files without the need of waiting till the download completes`
+
 
 
 ## ♢ How to make your own :
 
-Either you could locally host or deploy on [Heroku](https://heroku.com)
-### 💜 Heroku
+### `Either you could locally host or deploy on [Heroku](https://heroku.com)`
+## 💜 Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
 
@@ -55,10 +56,9 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 <p>
 
 
-![image](https://user-images.githubusercontent.com/88939380/137126452-80e760d4-4820-440b-9962-72e7e81adfb4.png)
 
 
-#### ♢ Click on This Drop-down and get more details
+#### `♢ Click on This Drop-down and get more details`
 
 <br>
 <details>
@@ -84,23 +84,28 @@ Press the below button to  deploy on Heroku
 
 <details>
   <summary><b>Available commands and features:</b></summary>
-  
+ 
 <p>
+ 
 🐬USER COMMANDS<p>
-/start - To start using me<br>
-/help  -  To know how to use me<p>
+`/start - To start using me` <br>
+`/help  -  To know how to use me`
 
 🐬ADMIN COMMANDS<p>
-/status  - to know how many users are using the bot<br>
-/broadcast - To send message to all the users using the bot<p>
+`/status  - to know how many users are using the bot` <br>
+`/broadcast - To send message to all the users using the bot`
 
 🚀Features<p>
-💥Superfast⚡️ download and stream links.<br>
-💥No ads in generated links.<br>
-💥Superfast interface.<br>
-💥Along with the links you also get file information like name,size ,etc.<br>
-💥Updates channel Support.<br>
-💥Mongodb database support for broadcasting.</details>
+```
+💥Superfast⚡️ download and stream links.
+💥No ads in generated links.
+💥Superfast interface.
+💥Along with the links you also get file information like name,size ,etc.
+💥Updates channel Support.
+💥Mongodb database support for broadcasting.
+```
+  
+  </details>
 <details>
   <summary><b>Host it on VPS Locally :</b></summary>
 
@@ -186,21 +191,22 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 
 
 ### Channel Support
-Bot also Supported with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button. </details>
+`Bot also Supports with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button.` </details>
 
 ### 🔷 Credits : 
 
 - [Adarsh Goel_(me)](https://t.me/codexmania)
 - [EverythingSuckz](https://github.com/EverythingSuckz) 
-- Everyone In This Journey !
+- `Everyone In This Journey !`
 
 ### Contributions By percentage
- - [Adarsh Goel_(me)](https://t.me/codexmania) for making some changes according to my taste + I added new features😎_________85% code
- - [EverythingSuckz](https://github.com/EverythingSuckz)   He owns the source code ;-;_______________________10% code
- - All who had helped me with logics  and plus who have helped [EverythingSuckz](https://github.com/EverythingSuckz)_________________5%  code
- - I dont own the source code . As told earlier I just made some changes I dont own it's base code 😇
- - Feel free to contribute  
- - 😀
+  
+ - [Adarsh Goel_(me)](https://t.me/codexmania) ` for making some changes according to my taste + I added new features😎_________85% code`
+ - [EverythingSuckz](https://github.com/EverythingSuckz) `  He owns the source code ;-;_______________________10% code`
+ - `All who had helped me with logics  and plus who have helped `[EverythingSuckz](https://github.com/EverythingSuckz)`_________________5%  code`
+ - `I dont own the source code . As told earlier I just made some changes I dont own it's base code 😇`
+ - `Feel free to contribute 😀`
+  
  
  
 
