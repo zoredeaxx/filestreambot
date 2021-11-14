@@ -204,8 +204,8 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 
 ### Contributions By percentage
   
- - [Adarsh Goel_(me)](https://t.me/codexmania) ` changes to existing repi I added new features😎 85% code`
- - [EverythingSuckz](https://github.com/EverythingSuckz) `  He owns some part of the code  10% code`
+ - [Adarsh Goel_(me)](https://t.me/codexmania) ` made changes to existing repo plus  I added new features😎 85% code`
+ - [EverythingSuckz](https://github.com/EverythingSuckz) `  He owns  10% code`
  - `All who had helped me with logics 5%  code`
  - `Feel free to contribute 😀`
   
