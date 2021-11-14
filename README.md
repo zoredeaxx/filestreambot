@@ -6,7 +6,7 @@
 [![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://t.me/filetoliprobot)
 [![Telegram -Bot](https://img.shields.io/badge/Telegram-Bot-purple.svg)](https://t.me/filetoliprorobot)
 ![GitHub](https://img.shields.io/github/license/code-x-mania/filestreambot)
-[![Bot Support](https://img.shields.io/badge/File%20Stream%20Bot-support%20group-blue)](https://t.me/codexmania)
+[![Bot Support](https://img.shields.io/badge/File%20Stream%20Bot-support%20group-blue)](https://t.me/codexmaniachat)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue.svg)](https://t.me/codexmania)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/code-x-mania/filestreambot)
 
