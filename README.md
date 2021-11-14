@@ -18,9 +18,14 @@
   
   
 
-<p align="center">
-  
-`A Telegram bot to turn all media and documents files to web link .`
+``` 
+💥Superfast⚡️ download and stream links.
+💥No ads in generated links.
+💥Superfast interface.
+💥Along with the links you also get file information like name,size ,etc.
+💥Updates channel Support.
+💥Mongodb database support for broadcasting.
+```
     
    
     
