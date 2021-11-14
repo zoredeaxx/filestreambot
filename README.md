@@ -10,8 +10,7 @@
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue.svg)](https://t.me/codexmania)
 
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/code-x-mania/filestreambot)
-
+__________________________________________________________![GitHub commit activity](https://img.shields.io/github/commit-activity/m/code-x-mania/filestreambot) __________________________________________________________
 
 
 <h1 align="center">FileStreamBot</h1>
