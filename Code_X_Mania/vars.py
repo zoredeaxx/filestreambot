@@ -15,7 +15,7 @@ class Var(object):
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001523128336'))
     PORT = int(getenv('PORT', 8080))
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'https://purple-bear-production.up.railway.app'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     OWNER_ID = int(getenv('OWNER_ID', '429535048'))
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
@@ -25,7 +25,7 @@ class Var(object):
         APP_NAME = str(getenv('APP_NAME'))
     else:
         ON_HEROKU = False
-    FQDN = str(getenv('https://purple-bear-production.up.railway.app', BIND_ADRESS)) if not ON_HEROKU or getenv('https://purple-bear-production.up.railway.app') else APP_NAME+'.herokuapp.com'
+    FQDN = str(getenv('https://purple-bear-production.up.railway.app', '0.0.0.0')) if not ON_HEROKU or getenv('https://purple-bear-production.up.railway.app') else APP_NAME+'.herokuapp.com'
     URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
         "http://{}:{}/".format(FQDN, PORT)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://zoredeaxx:<zoredeaxx>@cluster0.uemqk.mongodb.net/zorstream?retryWrites=true&w=majority'))
