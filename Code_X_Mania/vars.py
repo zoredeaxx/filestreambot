@@ -27,7 +27,7 @@ class Var(object):
         ON_HEROKU = False
     FQDN = str(getenv('FQDN', 'tiny.one/rlystream')) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
-        "http://{}/".format(FQDN)
+        "{}".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://zoredeaxx:<zoredeaxx>@cluster0.uemqk.mongodb.net/zorstream?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()))
