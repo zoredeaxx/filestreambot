@@ -115,6 +115,6 @@ dmypy.json
 
 #session files
 *.session
-WebStreamer/template/new.html
-WebStreamer/template/beta.html
-WebStreamer/template/style.css
+Code_X_Mania/template/new.html
+Code_X_Mania/template/beta.html
+Code_X_Mania/template/style.css
