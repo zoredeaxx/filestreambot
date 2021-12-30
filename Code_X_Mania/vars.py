@@ -12,7 +12,7 @@ class Var(object):
     BOT_TOKEN = str(getenv('BOT_TOKEN', '2114312285:AAF1Mzn30tfFi69RgcIPp377JIQE05jIbv0'))
     SESSION_NAME = str(getenv('SESSION_NAME', 'F2LxBot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
-    WORKERS = int(getenv('WORKERS', '4'))
+    WORKERS = int(getenv('WORKERS', '2'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001523128336'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
