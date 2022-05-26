@@ -1,13 +1,13 @@
 FROM python
 
-RUN mkdir -p /app
+COPY . /app
+
 WORKDIR /app
-COPY . .
 
-RUN python3 -m pip install --upgrade \
-    pip \
-    wheel
+RUN pip3 install -r requirements.txt
 
-RUN pip install -r requirements.txt
+ENV PORT = 8080
+
+EXPOSE 8080
 
 CMD [ "python3", "-m", "Code_X_Mania" ]
