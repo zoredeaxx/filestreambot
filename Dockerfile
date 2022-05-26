@@ -10,4 +10,4 @@ RUN python3 -m pip install --upgrade \
 
 RUN pip install -r requirements.txt
 
-CMD [ "python3", "-m", "WebStreamer" ]
+CMD [ "python3", "-m", "Code_X_Mania" ]
