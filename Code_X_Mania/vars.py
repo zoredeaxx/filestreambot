@@ -14,7 +14,7 @@ class Var(object):
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '1'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001523128336'))
-    PORT = int(getenv('PORT', 8080))
+    PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     OWNER_ID = int(getenv('OWNER_ID', '429535048'))
     NO_PORT = bool(getenv('NO_PORT', False))
@@ -25,7 +25,7 @@ class Var(object):
         APP_NAME = str(getenv('APP_NAME'))
     else:
         ON_HEROKU = False
-    FQDN = str(getenv('FQDN', 'tiny.one/rlystream')) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
+    FQDN = str(getenv('FQDN', 'https://streamz9aju.eu-ddtrbvpsqifl.dopraxapp.com')) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
         "{}".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://zoredeaxx:<zoredeaxx>@cluster0.uemqk.mongodb.net/zorstream?retryWrites=true&w=majority'))
