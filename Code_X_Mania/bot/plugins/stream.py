@@ -126,8 +126,8 @@ async def channel_receive_handler(bot, broadcast):
         return
     try:
         log_msg = await broadcast.forward(chat_id=Var.BIN_CHANNEL)
-        stream_link = Var.URL + 'watch/' + str(log_msg.message_id) 
-        online_link = Var.URL + 'download/' + str(log_msg.message_id) 
+        stream_link = Var.URL + 'watch/' + str(log_msg.id) 
+        online_link = Var.URL + 'download/' + str(log_msg.id) 
         await log_msg.reply_text(
             text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** {stream_link}",
             quote=True,
@@ -135,7 +135,7 @@ async def channel_receive_handler(bot, broadcast):
         )
         await bot.edit_message_reply_markup(
             chat_id=broadcast.chat.id,
-            message_id=broadcast.message_id,
+            message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("🖥STREAM ", url=stream_link),
