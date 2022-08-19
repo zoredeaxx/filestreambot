@@ -125,14 +125,14 @@ async def channel_receive_handler(bot, broadcast):
         await bot.leave_chat(broadcast.chat.id)
         return
     try:
-        log_msg = await broadcast.forward(chat_id=Var.BIN_CHANNEL)
+        log_msg = await broadcast.copy(chat_id=Var.BIN_CHANNEL)
         stream_link = Var.URL + 'watch/' + str(log_msg.id) 
         online_link = Var.URL + 'download/' + str(log_msg.id) 
-        await log_msg.reply_text(
-            text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** {stream_link}",
-            quote=True,
-            parse_mode=ParseMode.MARKDOWN
-        )
+        #await log_msg.reply_text(
+            #text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** {stream_link}",
+            #quote=True,
+            #parse_mode=ParseMode.MARKDOWN
+        #)
         await bot.edit_message_reply_markup(
             chat_id=broadcast.chat.id,
             message_id=broadcast.id,
